@@ -1,0 +1,13 @@
+.side-nav-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+.side-button {
+  background-color: rgb(145, 25, 25);
+  border-radius: 5px;
+  padding: 1ch;
+  width: 100%;
+  color: white;
+}

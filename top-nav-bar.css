@@ -2,40 +2,32 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: sans-serif;
-  padding: 1rem;
-  text-transform: uppercase;
+  padding-left: 1ch;
 }
 
 .brand {
-  font-size: 2rem;
-  color: rgb(168, 38, 38);
-  font-weight: bold;
+  color: rgb(145, 25, 25);
+  font-size: 2em;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 1000;
 }
 
-nav {
+.top-nav-bar {
   display: flex;
-  gap: 2ch;
+  gap: 1ch;
   flex-wrap: wrap;
-  padding-left: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  transition: background-color 1s;
-}
-
-nav a:hover {
-  background-color: rgb(175, 166, 166);
-  cursor: pointer;
 }
 
 .button {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 1ch;
   border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(219, 214, 214);
+  transition: background-color 1s;
 }
