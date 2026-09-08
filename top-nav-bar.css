@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.brand {
+  font-size: 2rem;
+  color: rgb(168, 38, 38);
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 2ch;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: background-color 1s;
+}
+
+nav a:hover {
+  background-color: rgb(175, 166, 166);
+  cursor: pointer;
+}
+
+.button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+}
