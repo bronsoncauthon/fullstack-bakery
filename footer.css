@@ -1,4 +1,12 @@
 footer {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.footer:hover {
+  background-color: rgb(77, 73, 73);
 }
